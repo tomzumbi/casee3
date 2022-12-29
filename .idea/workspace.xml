@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e270c27b-d170-4986-8542-f62eb2b68e7e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/backblue.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/fade.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed.whtt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/backblue.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/css/icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/css/tailwind.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/css/uikit.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/fonts/Brand-Icons036a.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/fonts/Brand-Icons036a.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/fonts/Brand-Icons036a.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/fonts/Feather-Iconse198.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/fonts/Feather-Iconse198.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/fonts/Feather-Iconse198.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/fonts/Material-Iconsb7df.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/fonts/Material-Iconsb7df.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/fonts/Material-Iconsb7df.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/fonts/unicons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/fonts/unicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/fonts/unicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/fonts/unicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/images/avatars/avatar-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/images/avatars/avatar-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/images/avatars/avatar-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/images/avatars/avatar-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/images/avatars/avatar-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/images/avatars/avatar-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/images/avatars/avatar-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/images/avatars/avatar-lg-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/images/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/images/icon-play.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/images/logo-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/images/logo-mobile-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/images/logo-mobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/images/post/img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/images/post/img10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/images/post/img11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/images/post/img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/images/post/img3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/images/post/img4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/images/post/img5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/images/post/img6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/images/post/img7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/images/post/img8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/images/post/img9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/images/product/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/images/product/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/images/product/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/images/product/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/images/product/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/images/product/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/images/product/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/images/product/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/images/product/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/images/product/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/images/product/7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/images/product/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/js/simplebar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/js/tippy.all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/js/uikit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/chat.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/explore.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/feed.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/form-login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/form-register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/market.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/pages-terms.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/profile.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/setting.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/trending.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/fade.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/hts-cache/doit.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/hts-cache/new.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/hts-cache/new.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/hts-cache/new.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/hts-cache/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/hts-cache/winprofile.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/hts-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/unpkg.com/ionicons@5.2.3/dist/ionicons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/casestudymodul3/model/Linh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/casestudymodul3/model/Linh.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2JZVyVIHtqk2yyGg0aqr42OKkvD" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/taphuonglinh/Desktop/CaseStudy-Modul3/src/main/webapp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.70" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.70" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="hot-swap-classes" />
+      <deployment>
+        <artifact name="Gradle : com.example : CaseStudy-Modul3-1.0-SNAPSHOT.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="809de2bd-4e64-481e-afc5-873079362f15" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49191" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Gradle : com.example : CaseStudy-Modul3-1.0-SNAPSHOT.war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e270c27b-d170-4986-8542-f62eb2b68e7e" name="Changes" comment="" />
+      <created>1672285848568</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672285848568</updated>
+      <workItem from="1672285850444" duration="2149000" />
+      <workItem from="1672292882306" duration="1146000" />
+      <workItem from="1672294131845" duration="4293000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
