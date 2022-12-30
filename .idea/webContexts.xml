@@ -3,6 +3,7 @@
   <component name="WebContextManager">
     <option name="state">
       <map>
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/feed.jsp" value="file://$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml" />
         <entry key="file://$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/home.jsp" value="file://$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml" />
       </map>
     </option>
