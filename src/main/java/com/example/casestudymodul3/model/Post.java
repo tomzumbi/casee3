@@ -6,24 +6,24 @@ public class Post {
     private int idPost;
     private String username;
     private String img;
-    private String noidung;
+    private String content;
     private String time;
 
     public Post() {
     }
 
-    public Post(String username, String img, String noidung, String time) {
+    public Post(String username, String img, String content, String time) {
         this.username = username;
         this.img = img;
-        this.noidung = noidung;
+        this.content = content;
         this.time = time;
     }
 
-    public Post(int idPost, String username, String img, String noidung, String time) {
+    public Post(int idPost, String username, String img, String content, String time) {
         this.idPost = idPost;
         this.username = username;
         this.img = img;
-        this.noidung = noidung;
+        this.content = content;
         this.time = time;
     }
 
@@ -51,12 +51,12 @@ public class Post {
         this.img = img;
     }
 
-    public String getNoidung() {
-        return noidung;
+    public String getContent() {
+        return content;
     }
 
-    public void setNoidung(String noidung) {
-        this.noidung = noidung;
+    public void setContent(String content) {
+        this.content = content;
     }
 
     public String getTime() {

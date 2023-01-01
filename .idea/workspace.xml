@@ -5,26 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e270c27b-d170-4986-8542-f62eb2b68e7e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/casestudymodul3/DAO/AccountDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/casestudymodul3/DAO/ConnectionMySql.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/casestudymodul3/DAO/PostDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/casestudymodul3/controller/PostServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/casestudymodul3/model/Accounts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/casestudymodul3/model/Post.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/casestudymodul3/service/PostService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/images/post/test1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/images/post/test2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/images/post/test3.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/casestudymodul3/HelloServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/casestudymodul3/model/Linh.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/casestudymodul3/model/Toan.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/casestudymodul3/model/hiep.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/feed.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/feed.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/pages-terms.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/pages-terms.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/casestudymodul3/DAO/ConnectionMySql.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/casestudymodul3/DAO/ConnectionMySql.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/casestudymodul3/DAO/PostDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/casestudymodul3/DAO/PostDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/casestudymodul3/model/Accounts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/casestudymodul3/model/Accounts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/casestudymodul3/model/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/casestudymodul3/model/Post.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,6 +182,7 @@
       <workItem from="1672316951805" duration="9391000" />
       <workItem from="1672361935532" duration="225000" />
       <workItem from="1672362254596" duration="10401000" />
+      <workItem from="1672537070877" duration="2190000" />
     </task>
     <servers />
   </component>

@@ -2,11 +2,10 @@ package com.example.casestudymodul3.DAO;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.SQLException;
 
 public class ConnectionMySql {
     public static Connection getConnection() {
-        String jdbcURL = "jdbc:mysql://localhost:3306/SocialMedia";
+        String jdbcURL = "jdbc:mysql://localhost:3306/casemodul3";
         String jdbcUsername = "root";
         String jdbcPassword = "12345678";
         Connection connection = null;

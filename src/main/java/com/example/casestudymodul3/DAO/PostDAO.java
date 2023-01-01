@@ -9,14 +9,14 @@ import java.util.List;
 public class PostDAO {
     public List<Post> getAll() {
     List<Post> posts = new ArrayList<>();
-    String sql = "Select post.idPost, post.img, post.noidung, Accounts.idAccounts, Accounts.username, post.time from Post join accounts on post.idAccounts = accounts.idaccounts order by time desc;";
+    String sql = "Select posts.idPosts, posts.img, posts.content, Accounts.idAccounts, Accounts.username, posts.time from Posts join accounts on posts.idAccounts = accounts.idaccounts order by time desc;";
     Connection connection = ConnectionMySql.getConnection();
         try {
             Statement statement = connection.createStatement();
             ResultSet resultSet = statement.executeQuery(sql);
             while(resultSet.next()) {
                 String username = resultSet.getString("username");
-                String noidung = resultSet.getString("noidung");
+                String noidung = resultSet.getString("content");
                 String linkimg = resultSet.getString("img");
                 String time = resultSet.getString("time");
                 posts.add(new Post(username,linkimg,noidung,time));
@@ -26,14 +26,14 @@ public class PostDAO {
         }
         return posts;
     }
-    public boolean save(Post post) {
-        String sql = "INSERT INTO post (idaccounts, img, noidung) VALUES (?, ?, ?);";
-        Connection connection = ConnectionMySql.getConnection();
-        try {
-            PreparedStatement preparedStatement = connection.prepareStatement(sql);
-            preparedStatement.setInt(1,);
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
-        }
-    }
+//    public boolean save(Post post) {
+//        String sql = "INSERT INTO post (idaccounts, img, noidung) VALUES (?, ?, ?);";
+//        Connection connection = ConnectionMySql.getConnection();
+//        try {
+//            PreparedStatement preparedStatement = connection.prepareStatement(sql);
+//            preparedStatement.setInt(1,);
+//        } catch (SQLException e) {
+//            throw new RuntimeException(e);
+//        }
+//    }
 }
