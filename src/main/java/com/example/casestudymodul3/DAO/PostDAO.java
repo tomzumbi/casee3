@@ -26,14 +26,98 @@ public class PostDAO {
         }
         return posts;
     }
-//    public boolean save(Post post) {
-//        String sql = "INSERT INTO post (idaccounts, img, noidung) VALUES (?, ?, ?);";
-//        Connection connection = ConnectionMySql.getConnection();
-//        try {
-//            PreparedStatement preparedStatement = connection.prepareStatement(sql);
-//            preparedStatement.setInt(1,);
-//        } catch (SQLException e) {
-//            throw new RuntimeException(e);
-//        }
-//    }
+
+    public List<Post> getAllMyPosts(int idAccounts) {
+        List<Post> posts = new ArrayList<>();
+        String sql = "select posts.idPosts, posts.img, posts.content, Accounts.idAccounts, Accounts.username, posts.time from Posts join accounts on posts.idAccounts = accounts.idaccounts where accounts.idaccounts ="+idAccounts +"  order by time desc;";
+        Connection connection = ConnectionMySql.getConnection();
+        try {
+            Statement statement = connection.createStatement();
+            ResultSet resultSet = statement.executeQuery(sql);
+            while (resultSet.next()) {
+                int idpost = resultSet.getInt("idposts");
+                String username = resultSet.getString("username");
+                String noidung = resultSet.getString("content");
+                String linkimg = resultSet.getString("img");
+                String time = resultSet.getString("time");
+                posts.add(new Post(idpost,username,linkimg,noidung,time));
+            }
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+        return posts;
+    }
+    public boolean save(Post post) {
+        String sql = "INSERT INTO posts (idaccounts, img, content) VALUES (?, ?, ?);";
+        Connection connection = ConnectionMySql.getConnection();
+        try {
+            PreparedStatement preparedStatement = connection.prepareStatement(sql);
+            preparedStatement.setInt(1,1);
+            preparedStatement.setString(2, post.getImg());
+            preparedStatement.setString(3, post.getContent());
+            return preparedStatement.execute();
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
+    public boolean edit(Post post) {
+        String sql = "update posts set content =?, img=? where idposts=?";
+        Connection connection = ConnectionMySql.getConnection();
+        try {
+            PreparedStatement preparedStatement = connection.prepareStatement(sql);
+            preparedStatement.setInt(3,post.getIdPost());
+            preparedStatement.setString(1, post.getContent());
+            preparedStatement.setString(2,post.getImg());
+            return preparedStatement.execute();
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public void delete(int id) {
+        String sqlcmt = "delete from comments where idposts =" + id;
+        String sqllike = "delete from likes where idposts =" + id;
+        String sql = "delete from posts where idposts =" + id;
+        Connection connection = ConnectionMySql.getConnection();
+        try {
+            PreparedStatement preparedStatement1 = connection.prepareStatement(sqlcmt);
+            PreparedStatement preparedStatement2 = connection.prepareStatement(sqllike);
+            PreparedStatement preparedStatement3 = connection.prepareStatement(sql);
+            preparedStatement1.execute();
+            preparedStatement2.execute();
+            preparedStatement3.execute();
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+
+    }
+    public Post findPostById(int id) {
+        String sql = "select posts.idPosts, posts.img, posts.content, Accounts.idAccounts, Accounts.username, posts.time from Posts join accounts on posts.idAccounts = accounts.idaccounts where idPosts ="+id;
+        Connection connection = ConnectionMySql.getConnection();
+        try {
+            Statement statement = connection.createStatement();
+            ResultSet resultSet = statement.executeQuery(sql);
+            resultSet.next();
+
+            String name = resultSet.getString("username");
+            String img = resultSet.getString("img");
+            String content = resultSet.getString("content");
+
+            return new Post(name,img,content);
+        } catch (SQLException e) {
+            e.printStackTrace();
+            throw new RuntimeException(e);
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
 }

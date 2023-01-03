@@ -1012,162 +1012,387 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
     <schema id="293" parent="1" name="SocialMedia">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="294" parent="1" name="information_schema">
+    <schema id="294" parent="1" name="casemodul3">
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </schema>
+    <schema id="295" parent="1" name="information_schema">
       <CollationName>utf8mb3_general_ci</CollationName>
     </schema>
-    <schema id="295" parent="1" name="mydatabase1">
+    <schema id="296" parent="1" name="mydatabase1">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="296" parent="1" name="mysql">
+    <schema id="297" parent="1" name="mysql">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="297" parent="1" name="performance_schema">
+    <schema id="298" parent="1" name="performance_schema">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="298" parent="1" name="student-management">
+    <schema id="299" parent="1" name="student-management">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="299" parent="1" name="student_test">
+    <schema id="300" parent="1" name="student_test">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="300" parent="1" name="sys">
+    <schema id="301" parent="1" name="sys">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <user id="301" parent="1" name="mysql.infoschema">
+    <user id="302" parent="1" name="mysql.infoschema">
       <CanLogin>0</CanLogin>
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <user id="302" parent="1" name="mysql.session">
+    <user id="303" parent="1" name="mysql.session">
       <CanLogin>0</CanLogin>
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <user id="303" parent="1" name="mysql.sys">
+    <user id="304" parent="1" name="mysql.sys">
       <CanLogin>0</CanLogin>
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <user id="304" parent="1" name="root">
+    <user id="305" parent="1" name="root">
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <table id="305" parent="293" name="Accounts">
+    <table id="306" parent="294" name="accounts">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <table id="306" parent="293" name="Post">
+    <table id="307" parent="294" name="comments">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <column id="307" parent="305" name="idAccounts">
-      <AutoIncrement>2</AutoIncrement>
+    <table id="308" parent="294" name="follows">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="309" parent="294" name="likes">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="310" parent="294" name="posts">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="311" parent="294" name="roles">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="312" parent="294" name="status">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <column id="313" parent="306" name="idaccounts">
+      <AutoIncrement>4</AutoIncrement>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="308" parent="305" name="username">
+    <column id="314" parent="306" name="username">
       <DasType>varchar(45)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="309" parent="305" name="password">
+    <column id="315" parent="306" name="pasword">
       <DasType>varchar(45)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="310" parent="305" name="email">
+    <column id="316" parent="306" name="email">
       <DasType>varchar(45)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="311" parent="305" name="phone">
-      <DasType>varchar(11)|0s</DasType>
+    <column id="317" parent="306" name="phone">
+      <DasType>varchar(45)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
-    <column id="312" parent="305" name="address">
-      <DasType>varchar(255)|0s</DasType>
-      <NotNull>1</NotNull>
+    <column id="318" parent="306" name="address">
+      <DasType>varchar(45)|0s</DasType>
       <Position>6</Position>
     </column>
-    <column id="313" parent="305" name="role">
-      <DasType>varchar(10)|0s</DasType>
+    <column id="319" parent="306" name="idroles">
+      <DasType>int|0s</DasType>
+      <DefaultExpression>2</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>7</Position>
     </column>
-    <index id="314" parent="305" name="PRIMARY">
-      <ColNames>idAccounts</ColNames>
+    <column id="320" parent="306" name="idstatus">
+      <DasType>int|0s</DasType>
+      <DefaultExpression>1</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>8</Position>
+    </column>
+    <column id="321" parent="306" name="avatarurl">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <foreign-key id="322" parent="306" name="accounts_ibfk_1">
+      <ColNames>idroles</ColNames>
+      <RefColNames>idroles</RefColNames>
+      <RefTableName>roles</RefTableName>
+    </foreign-key>
+    <foreign-key id="323" parent="306" name="accounts_ibfk_2">
+      <ColNames>idstatus</ColNames>
+      <RefColNames>idstatus</RefColNames>
+      <RefTableName>status</RefTableName>
+    </foreign-key>
+    <index id="324" parent="306" name="PRIMARY">
+      <ColNames>idaccounts</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="315" parent="305" name="username_UNIQUE">
+    <index id="325" parent="306" name="username_UNIQUE">
       <ColNames>username</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="316" parent="305" name="email_UNIQUE">
+    <index id="326" parent="306" name="email_UNIQUE">
       <ColNames>email</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="317" parent="305" name="phone_UNIQUE">
-      <ColNames>phone</ColNames>
+    <index id="327" parent="306" name="idroles">
+      <ColNames>idroles</ColNames>
       <Type>btree</Type>
-      <Unique>1</Unique>
     </index>
-    <key id="318" parent="305" name="PRIMARY">
+    <index id="328" parent="306" name="idstatus">
+      <ColNames>idstatus</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="329" parent="306" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <key id="319" parent="305" name="username_UNIQUE">
+    <key id="330" parent="306" name="username_UNIQUE">
       <UnderlyingIndexName>username_UNIQUE</UnderlyingIndexName>
     </key>
-    <key id="320" parent="305" name="email_UNIQUE">
+    <key id="331" parent="306" name="email_UNIQUE">
       <UnderlyingIndexName>email_UNIQUE</UnderlyingIndexName>
     </key>
-    <key id="321" parent="305" name="phone_UNIQUE">
-      <UnderlyingIndexName>phone_UNIQUE</UnderlyingIndexName>
-    </key>
-    <column id="322" parent="306" name="idPost">
+    <column id="332" parent="307" name="idcomments">
       <AutoIncrement>1</AutoIncrement>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="323" parent="306" name="idAccounts">
+    <column id="333" parent="307" name="idposts">
+      <DasType>int|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="334" parent="307" name="idaccounts">
+      <DasType>int|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="335" parent="307" name="content">
+      <DasType>longtext|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <foreign-key id="336" parent="307" name="comments_ibfk_1">
+      <ColNames>idposts</ColNames>
+      <RefColNames>idposts</RefColNames>
+      <RefTableName>posts</RefTableName>
+    </foreign-key>
+    <foreign-key id="337" parent="307" name="comments_ibfk_2">
+      <ColNames>idaccounts</ColNames>
+      <RefColNames>idaccounts</RefColNames>
+      <RefTableName>accounts</RefTableName>
+    </foreign-key>
+    <index id="338" parent="307" name="PRIMARY">
+      <ColNames>idcomments</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="339" parent="307" name="idposts_idx">
+      <ColNames>idposts</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="340" parent="307" name="idaccounts_idx">
+      <ColNames>idaccounts</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="341" parent="307" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="342" parent="308" name="idfollows">
+      <AutoIncrement>3</AutoIncrement>
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="343" parent="308" name="followeridaccounts">
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="324" parent="306" name="img">
-      <DasType>varchar(255)|0s</DasType>
+    <column id="344" parent="308" name="followingidaccounts">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="325" parent="306" name="noidung">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>4</Position>
-    </column>
-    <column id="326" parent="306" name="time">
-      <DasType>datetime|0s</DasType>
-      <Position>5</Position>
-    </column>
-    <foreign-key id="327" parent="306" name="post_ibfk_1">
-      <ColNames>idAccounts</ColNames>
-      <RefColNames>idAccounts</RefColNames>
-      <RefTableName>Accounts</RefTableName>
+    <foreign-key id="345" parent="308" name="follows_ibfk_1">
+      <ColNames>followeridaccounts</ColNames>
+      <RefColNames>idaccounts</RefColNames>
+      <RefTableName>accounts</RefTableName>
     </foreign-key>
-    <index id="328" parent="306" name="PRIMARY">
-      <ColNames>idPost</ColNames>
+    <foreign-key id="346" parent="308" name="follows_ibfk_2">
+      <ColNames>followingidaccounts</ColNames>
+      <RefColNames>idaccounts</RefColNames>
+      <RefTableName>accounts</RefTableName>
+    </foreign-key>
+    <index id="347" parent="308" name="PRIMARY">
+      <ColNames>idfollows</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="329" parent="306" name="idAccounts">
-      <ColNames>idAccounts</ColNames>
+    <index id="348" parent="308" name="followeridaccounts">
+      <ColNames>followeridaccounts</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="330" parent="306" name="PRIMARY">
+    <index id="349" parent="308" name="followingidaccounts">
+      <ColNames>followingidaccounts</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="350" parent="308" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="351" parent="309" name="idlikes">
+      <AutoIncrement>3</AutoIncrement>
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="352" parent="309" name="idaccounts">
+      <DasType>int|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="353" parent="309" name="idposts">
+      <DasType>int|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <foreign-key id="354" parent="309" name="likes_ibfk_1">
+      <ColNames>idaccounts</ColNames>
+      <RefColNames>idaccounts</RefColNames>
+      <RefTableName>accounts</RefTableName>
+    </foreign-key>
+    <foreign-key id="355" parent="309" name="likes_ibfk_2">
+      <ColNames>idposts</ColNames>
+      <RefColNames>idposts</RefColNames>
+      <RefTableName>posts</RefTableName>
+    </foreign-key>
+    <index id="356" parent="309" name="PRIMARY">
+      <ColNames>idlikes</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="357" parent="309" name="idaccounts">
+      <ColNames>idaccounts</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="358" parent="309" name="idposts_idx">
+      <ColNames>idposts
+idaccounts</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="359" parent="309" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="360" parent="310" name="idposts">
+      <AutoIncrement>4</AutoIncrement>
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="361" parent="310" name="idaccounts">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="362" parent="310" name="content">
+      <DasType>longtext|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="363" parent="310" name="img">
+      <DasType>varchar(245)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="364" parent="310" name="time">
+      <DasType>datetime|0s</DasType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="365" parent="310" name="likecount">
+      <DasType>int|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <foreign-key id="366" parent="310" name="posts_ibfk_1">
+      <ColNames>idaccounts</ColNames>
+      <RefColNames>idaccounts</RefColNames>
+      <RefTableName>accounts</RefTableName>
+    </foreign-key>
+    <index id="367" parent="310" name="PRIMARY">
+      <ColNames>idposts</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="368" parent="310" name="idaccounts">
+      <ColNames>idaccounts</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="369" parent="310" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="370" parent="311" name="idroles">
+      <AutoIncrement>3</AutoIncrement>
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="371" parent="311" name="role">
+      <DasType>varchar(45)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <index id="372" parent="311" name="PRIMARY">
+      <ColNames>idroles</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="373" parent="311" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="374" parent="312" name="idstatus">
+      <AutoIncrement>3</AutoIncrement>
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="375" parent="312" name="status">
+      <DasType>varchar(45)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <index id="376" parent="312" name="PRIMARY">
+      <ColNames>idstatus</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="377" parent="312" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>

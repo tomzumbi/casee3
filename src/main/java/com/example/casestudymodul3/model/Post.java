@@ -12,6 +12,30 @@ public class Post {
     public Post() {
     }
 
+    public Post(int idPost, String username, String img, String content) {
+        this.idPost = idPost;
+        this.username = username;
+        this.img = img;
+        this.content = content;
+    }
+
+    public Post(int idPost,  String img, String content) {
+        this.idPost = idPost;
+        this.img = img;
+        this.content = content;
+    }
+
+    public Post(String img, String content) {
+        this.img = img;
+        this.content = content;
+    }
+
+    public Post(String username, String img, String content) {
+        this.username = username;
+        this.img = img;
+        this.content = content;
+    }
+
     public Post(String username, String img, String content, String time) {
         this.username = username;
         this.img = img;

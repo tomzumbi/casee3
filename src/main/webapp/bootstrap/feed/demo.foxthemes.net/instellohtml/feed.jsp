@@ -84,7 +84,7 @@
             <hr class="-mx-4 -mt-1 uk-visible@s">
             <ul>
                 <li class="active">
-                    <a href="/bootstrap/feed/demo.foxthemes.net/instellohtml/feed.jsp">
+                    <a href="/post">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                              stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -142,7 +142,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="/bootstrap/feed/demo.foxthemes.net/instellohtml/profile.jsp">
+                    <a href="/myposts">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                              stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -239,14 +239,18 @@
                                     please enter link...
                                 </p>
                                 <div uk-form-custom>
-                                    <form class="uk-grid-small" uk-grid>
-                                        <div class="uk-width-expand">
+                                    <form class="uk-grid-small" uk-grid method="post" action="/createpost" >
+                                        <div class="uk-width-expand" >
                                             <input type="text" class="uk-input uk-form-small  bg-gray-200 dark:bg-gray-700"
-                                                   style="box-shadow:none" placeholder="Paste link">
+                                                   style="box-shadow:none" placeholder="Enter content" name = "content">
                                         </div>
+                                        <div class="uk-width-expand" >
+                                            <input type="text" class="uk-input uk-form-small  bg-gray-200 dark:bg-gray-700"
+                                                   style="box-shadow:none" placeholder="Paste link" name = "linkimg">
+                                        </div>
+                                        <button class="button soft-warning small"  type="submit"> Enter link image </button>
                                     </form>
-                                    <br>
-                                    <a href="#" class="button soft-warning small"> Enter link image </a>
+
                                 </div>
 
                                 <a href="#" class="uk-text-muted mt-3 uk-link"
@@ -268,7 +272,7 @@
                                 <form class="uk-grid-small" uk-grid>
                                     <div class="uk-width-expand">
                                         <input type="text" class="uk-input uk-form-small  bg-gray-200 dark:bg-gray-700"
-                                               style="box-shadow:none" placeholder="Paste link">
+                                               style="box-shadow:none" placeholder="Paste link" >
                                     </div>
                                     <div class="uk-width-auto">
                                         <button type="submit" class="button soft-warning -ml-2">
@@ -566,6 +570,7 @@
                             </div>
 
                             <div uk-lightbox>
+                                <a>${post.content}</a>
                                 <a href="${post.img}">
                                     <img src="${post.img}"
                                          alt="">

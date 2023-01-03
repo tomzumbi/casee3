@@ -663,7 +663,7 @@
                     <img src="assets/images/post/img4.jpg" alt=""  class="inset-0 h-full w-full object-cover">
                 </div>
                 <div class="flex-1 bg-white dark:bg-gray-900 dark:text-gray-100">
-                
+
                     <!-- post header-->
                     <div class="border-b flex items-center justify-between px-5 py-3 dark:border-gray-600">
                         <div class="flex flex-1 items-center space-x-4">
@@ -675,14 +675,14 @@
                             </a>
                             <span class="block text-lg font-semibold"> Johnson smith </span>
                         </div>
-                        <a href="#"> 
+                        <a href="#">
                             <i  class="icon-feather-more-horizontal text-2xl rounded-full p-2 transition -mr-1"></i>
                         </a>
                     </div>
                     <div class="story-content p-4" data-simplebar>
 
                         <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </p>
-                        
+
                         <div class="py-4 ">
                             <div class="flex justify-around">
                                 <a href="#" class="flex items-center space-x-3">
@@ -696,7 +696,7 @@
                                 </a>
                             </div>
                             <hr class="-mx-4 my-3">
-                            <div class="flex items-center space-x-3"> 
+                            <div class="flex items-center space-x-3">
                                 <div class="flex items-center">
                                     <img src="assets/images/avatars/avatar-1.jpg" alt="" class="w-6 h-6 rounded-full border-2 border-white">
                                     <img src="assets/images/avatars/avatar-4.jpg" alt="" class="w-6 h-6 rounded-full border-2 border-white -ml-2">
