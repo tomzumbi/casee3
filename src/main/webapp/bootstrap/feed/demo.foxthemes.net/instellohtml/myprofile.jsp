@@ -68,11 +68,14 @@
             <div class="flex flex-col items-center my-6 uk-visible@s">
                 <div
                         class="bg-gradient-to-tr from-yellow-600 to-pink-600 p-1 rounded-full transition m-0.5 mr-2  w-24 h-24">
-                    <img src="/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/images/post/test1.jpeg"
+                    <img src="${account.avatarurl}"
                          class="bg-gray-200 border-4 border-white rounded-full w-full h-full">
                 </div>
                 <a href="/bootstrap/feed/demo.foxthemes.net/instellohtml/myprofile.jsp"
-                   class="text-xl font-medium capitalize mt-4 uk-link-reset"> Hoang Nhat Nam
+                   class="text-xl font-medium capitalize mt-4 uk-link-reset"> ${account.username}
+                    <c:if test="${sessionScope.account != null}">
+
+                    </c:if>
                 </a>
                 <div class="flex justify-around w-full items-center text-center uk-link-reset text-gray-800 mt-6">
                     <div>
@@ -98,7 +101,7 @@
             <hr class="-mx-4 -mt-1 uk-visible@s">
             <ul>
                 <li>
-                    <a href="/bootstrap/feed/demo.foxthemes.net/instellohtml/feed.jsp">
+                    <a href="/post">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                   d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"/>

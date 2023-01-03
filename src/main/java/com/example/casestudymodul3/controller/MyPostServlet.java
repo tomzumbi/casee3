@@ -1,5 +1,6 @@
 package com.example.casestudymodul3.controller;
 
+import com.example.casestudymodul3.model.Account;
 import com.example.casestudymodul3.service.PostService;
 
 import javax.servlet.*;
@@ -11,7 +12,10 @@ import java.io.IOException;
 public class MyPostServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.setAttribute("myposts", PostService.getAllMyPosts(1));
+        HttpSession session = request.getSession();
+        Account account = (Account) session.getAttribute("account");
+        request.setAttribute("account", account);
+        request.setAttribute("myposts", PostService.getAllMyPosts(account.getIdaccount()));
         RequestDispatcher dispatcher = request.getRequestDispatcher("/bootstrap/feed/demo.foxthemes.net/instellohtml/myprofile.jsp");
         dispatcher.forward(request, response);
     }

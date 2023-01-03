@@ -1,5 +1,6 @@
 package com.example.casestudymodul3.DAO;
 
+import com.example.casestudymodul3.controller.Login;
 import com.example.casestudymodul3.model.Post;
 
 import java.sql.*;
@@ -9,7 +10,7 @@ import java.util.List;
 public class PostDAO {
     public List<Post> getAll() {
     List<Post> posts = new ArrayList<>();
-    String sql = "Select posts.idPosts, posts.img, posts.content, Accounts.idAccounts, Accounts.username, posts.time from Posts join accounts on posts.idAccounts = accounts.idaccounts order by time desc;";
+    String sql = "Select posts.idPosts, posts.img, posts.content, Accounts.idAccounts,Accounts.avatarurl , Accounts.username, posts.time from Posts join accounts using(idaccounts) order by time desc;";
     Connection connection = ConnectionMySql.getConnection();
         try {
             Statement statement = connection.createStatement();
@@ -19,7 +20,8 @@ public class PostDAO {
                 String noidung = resultSet.getString("content");
                 String linkimg = resultSet.getString("img");
                 String time = resultSet.getString("time");
-                posts.add(new Post(username,linkimg,noidung,time));
+                String avatarurl = resultSet.getString("avatarurl");
+                posts.add(new Post(username,linkimg,noidung,time,avatarurl));
             }
         } catch (SQLException e) {
             throw new RuntimeException(e);
@@ -29,33 +31,37 @@ public class PostDAO {
 
     public List<Post> getAllMyPosts(int idAccounts) {
         List<Post> posts = new ArrayList<>();
-        String sql = "select posts.idPosts, posts.img, posts.content, Accounts.idAccounts, Accounts.username, posts.time from Posts join accounts on posts.idAccounts = accounts.idaccounts where accounts.idaccounts ="+idAccounts +"  order by time desc;";
+        String sql = "select posts.idPosts, posts.img, posts.content, Accounts.idAccounts,Accounts.avatarurl ,Accounts.username, posts.time from Posts join accounts on posts.idAccounts = accounts.idaccounts where accounts.idaccounts ="+idAccounts +"  order by time desc;";
         Connection connection = ConnectionMySql.getConnection();
         try {
             Statement statement = connection.createStatement();
             ResultSet resultSet = statement.executeQuery(sql);
             while (resultSet.next()) {
                 int idpost = resultSet.getInt("idposts");
+                System.out.println(idpost);
                 String username = resultSet.getString("username");
                 String noidung = resultSet.getString("content");
                 String linkimg = resultSet.getString("img");
                 String time = resultSet.getString("time");
-                posts.add(new Post(idpost,username,linkimg,noidung,time));
+                String avatarurl = resultSet.getString("avatarurl");
+                posts.add(new Post(username,linkimg,noidung,time,avatarurl,idpost));
             }
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
         return posts;
     }
-    public boolean save(Post post) {
-        String sql = "INSERT INTO posts (idaccounts, img, content) VALUES (?, ?, ?);";
+    public static void save(Post post) {
+        String sql = "INSERT INTO posts (idaccounts, content, img) VALUES ( ?, ?,?)";
         Connection connection = ConnectionMySql.getConnection();
+        int id = Login.account.getIdaccount();
         try {
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
-            preparedStatement.setInt(1,1);
-            preparedStatement.setString(2, post.getImg());
-            preparedStatement.setString(3, post.getContent());
-            return preparedStatement.execute();
+            preparedStatement.setInt(1, id);
+            preparedStatement.setString(2, post.getContent());
+            preparedStatement.setString(3, post.getImg());
+            preparedStatement.execute();
+
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }

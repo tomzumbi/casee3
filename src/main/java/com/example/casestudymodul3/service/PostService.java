@@ -16,8 +16,8 @@ public class PostService {
         return postDAO.getAllMyPosts(idAccounts);
     }
 
-    public static boolean save(Post post) {
-        return postDAO.save(post);
+    public static void save(Post post) {
+        postDAO.save(post);
     }
 
     public static void edit(Post post) {

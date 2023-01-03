@@ -1,3 +1,10 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: ADMIN
+  Date: 1/2/2023
+  Time: 2:19 PM
+  To change this template use File | Settings | File Templates.
+--%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
@@ -11,10 +18,10 @@
 
     <!-- Favicon -->
     <link href="/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/images/favicon.png" rel="icon" type="image/png">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Basic Page Needs
     ================================================== -->
-    <title>Instello Sharing Photos</title>
+    <title>Forgot Password</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Instello - Sharing Photos platform HTML Template">
@@ -23,7 +30,7 @@
     ================================================== -->
     <link rel="stylesheet" href="/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/css/icons.css">
 
-    <!-- CSS 
+    <!-- CSS
     ================================================== -->
     <link rel="stylesheet" href="/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/css/uikit.css">
     <link rel="stylesheet" href="/bootstrap/feed/demo.foxthemes.net/instellohtml/assets/css/style.css">
@@ -43,50 +50,32 @@
                 <a href="/login">
                     <img src=" http://demo.foxthemes.net/instellohtml/assets/images/logo.png" alt="" class="w-32">
                 </a>
-
-                <div class="capitalize flex font-semibold hidden lg:block my-2 space-x-3 text-center text-sm">
-                    <a href="/login" class="py-3 px-4">Login</a>
-                    <a href="/register" class="bg-pink-500 pink-500 px-6 py-3 rounded-md shadow text-white">Register</a>
-                </div>
-
             </div>
         </div>
     </div>
-
-    <!-- Content-->
-    <div style="margin-bottom: 50%; margin-left: 50%">
+    <div style="margin-bottom: 50%">
         <div class="lg:p-12 max-w-md max-w-xl lg:my-0 my-12 mx-auto p-6 space-y-">
-            <h1 class="lg:text-3xl text-xl font-semibold  mb-6"> Log in</h1>
-            <h4>${mess}</h4>
-            <p class="mb-2 text-black text-lg"> Email or Username</p>
-            <form action="/login" method="post">
+            <h3 class="lg:text-3xl text-xl font-semibold  mb-6">Reset Password </h3>
+            <p>${mess}</p>
+            <form action="/resetpass" method="post">
                 <input type="text" placeholder="Username"
                        class="bg-gray-200 mb-2 shadow-none dark:bg-gray-800"
                        style="border: 1px solid #d3d5d8 !important;"
                        name="username">
-                <input type="text" placeholder="Password" class="bg-gray-200 mb-2 shadow-none dark:bg-gray-800"
+                <input type="text" placeholder="Enter your new password"
+                       class="bg-gray-200 mb-2 shadow-none dark:bg-gray-800"
                        style="border: 1px solid #d3d5d8 !important;"
                        name="password">
-                <div class="flex justify-between my-4">
-                    <div class="checkbox">
-                        <input type="checkbox" id="chekcbox1" checked>
-                        <label for="chekcbox1"><span class="checkbox-icon"></span>Remember Me</label>
-                    </div>
-                    <a href="/resetpass"> Forgot Your Password? </a>
-                </div>
-                <button type="submit"
-                        class="bg-gradient-to-br from-pink-500 py-3 rounded-md text-white text-xl to-red-400 w-full">
-                    Login
-                </button>
+                <input type="text" placeholder="Enter your new password"
+                       class="bg-gray-200 mb-2 shadow-none dark:bg-gray-800"
+                       style="border: 1px solid #d3d5d8 !important;"
+                       name="repass">
+                <button type="submit" class="btn btn-light">Reset My Password</button>
 
             </form>
-            <div class="text-center mt-5 space-x-2">
-                <p class="text-base"> Not registered? <a href="/register" class=""> Create a account </a></p>
-            </div>
         </div>
     </div>
-
-
 </div>
+>
 </body>
 </html>

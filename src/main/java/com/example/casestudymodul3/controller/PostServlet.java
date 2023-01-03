@@ -12,6 +12,8 @@ import java.io.IOException;
 public class PostServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        HttpSession session = request.getSession();
+        request.setAttribute("account", session.getAttribute("account"));
         request.setAttribute("posts", PostService.getAll());
         RequestDispatcher dispatcher = request.getRequestDispatcher("/bootstrap/feed/demo.foxthemes.net/instellohtml/feed.jsp");
         dispatcher.forward(request, response);
