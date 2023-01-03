@@ -11,7 +11,7 @@ public class RegisterDAO {
     private Connection connection = ConnectionMySql.getConnection();
 
     public boolean Adduser(Account account) {
-        String sql = "insert into accounts (username,pasword,email,phone,address) value (?,?,?,?,?)";
+        String sql = "insert into accounts (username,pasword,email,phone,address,avatarurl) value (?,?,?,?,?,?)";
         try {
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
             preparedStatement.setString(1, account.getUsername());
@@ -19,6 +19,7 @@ public class RegisterDAO {
             preparedStatement.setString(3, account.getEmail());
             preparedStatement.setString(4, account.getPhonenumber());
             preparedStatement.setString(5, account.getAddress());
+            preparedStatement.setString(6, account.getAvatarurl());
             return preparedStatement.execute();
         } catch (SQLException e) {
             e.printStackTrace();
