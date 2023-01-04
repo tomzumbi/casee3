@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e270c27b-d170-4986-8542-f62eb2b68e7e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/casestudymodul3/DAO/RepassDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/casestudymodul3/controller/FeedAdmin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/casestudymodul3/controller/Setting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/casestudymodul3/service/RepassService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/feedadmin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ff6755a6-e66d-4e21-b409-d02f2b6d1860.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/casestudymodul3/DAO/RegisterDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/casestudymodul3/DAO/RegisterDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/casestudymodul3/controller/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/casestudymodul3/controller/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/casestudymodul3/controller/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/casestudymodul3/controller/Register.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/casestudymodul3/model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/casestudymodul3/model/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/feed.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/feed.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/form-register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/form-register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/setting.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap/feed/demo.foxthemes.net/instellohtml/setting.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +65,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/ADMIN/Desktop/CaseStudyModul3",
+    "last_opened_file_path": "E:/democase/fronend/CaseModul3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -295,7 +281,7 @@
       <workItem from="1672654646022" duration="19305000" />
       <workItem from="1672729703426" duration="14085000" />
       <workItem from="1672759206710" duration="37000" />
-      <workItem from="1672759803056" duration="2305000" />
+      <workItem from="1672759803056" duration="3802000" />
     </task>
     <servers />
   </component>
